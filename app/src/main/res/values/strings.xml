@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Tip-Time</string>
+    <string name="ok_amazing">Amazing (20%)</string>
+    <string name="ok_good">Good (15%)</string>
+    <string name="ok_service">Okay (10%)</string>
+    <string name="ok_how_service">Como foi o Serviço</string>
+    <string name="preco_do_servico">Preço do Serviço</string>
+    <string name="dar_gorgeta">Dar Gorgeta ?</string>
+    <string name="calcular_valor">Calcular Valor</string>
+    <string name="quantidade_gorgeta">Quantidade de Gorgeta</string>
+
 </resources>

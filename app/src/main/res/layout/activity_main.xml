@@ -13,7 +13,7 @@
         android:layout_width="160dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:hint="Cost of Service"
+        android:hint="@string/preco_do_servico"
         android:inputType="numberDecimal"/>
     
     <TextView
@@ -22,7 +22,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/cost_of_service"
         android:id="@+id/service_question"
-        android:text="Como Foi o Serviço"/>
+        android:text="@string/ok_how_service"/>
     
     <RadioGroup
         android:id="@+id/tip_options"
@@ -37,19 +37,19 @@
             android:id="@+id/option_twenty_percent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Amazing (20%)" />
+            android:text="@string/ok_amazing" />
 
         <RadioButton
             android:id="@+id/option_twenty_percent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Good (15%)" />
+            android:text="@string/ok_good" />
 
         <RadioButton
             android:id="@+id/option_twenty_percent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Okay (10%)" />
+            android:text="@string/ok_service" />
 
     </RadioGroup>
 
@@ -58,7 +58,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:checked="true"
-        android:text="Dar Gorgeta?"
+        android:text="@string/dar_gorgeta"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/tip_options"
         app:layout_constraintTop_toBottomOf="@id/tip_options" />
@@ -67,7 +67,7 @@
         android:id="@+id/calculate_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Calcular"
+        android:text="@string/calcular_valor"
         app:layout_constraintTop_toBottomOf="@id/round_up_switch"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -78,6 +78,6 @@
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/calculate_button"
-        android:text="Quantidade de Gorgeta" />
+        android:text="@string/quantidade_gorgeta" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
