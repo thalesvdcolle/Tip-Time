@@ -5,8 +5,8 @@
     <string name="ok_service">Okay (10%)</string>
     <string name="ok_how_service">Como foi o Serviço</string>
     <string name="preco_do_servico">Preço do Serviço</string>
-    <string name="dar_gorgeta">Dar Gorgeta ?</string>
+    <string name="dar_gorgeta">Quer Arredondar pra Cima?</string>
     <string name="calcular_valor">Calcular Valor</string>
-    <string name="quantidade_gorgeta">Quantidade de Gorgeta</string>
+    <string name="quantidade_gorgeta">Quantidade de Gorgeta: %s</string>
 
 </resources>
